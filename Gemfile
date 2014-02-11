@@ -60,7 +60,7 @@ group :production, :staging do
 end
 
 group :production do
-  gem 'backup', :git => 'git://github.com/jdutil/backup.git', :branch => 'bump_fog'
+  # not sure if fog is necessary
   gem 'fog'
   gem 'parallel', '~> 0.5.12'
 end
